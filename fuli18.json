@@ -1,18 +1,6 @@
-//https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/mao210jia.json
-//https://cdn.jsdelivr.net/gh/rrzt/TVBOXJIA@main/mao210jia.json
- //"spider": "https://gitea.com/RRZT/TVBOXJIA/raw/branch/main/spider2207.jar",
-
 ###
 {
-    //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider0626.jar",
-    //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider20.jar",
-     //"spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider.jar",
-    // "spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/custom_spider2207.jar",
-  // "spider": " https://raw-gh.gcdn.mirr.one/rrzt/TVBOXJIA/main/spider2207.jar",
- //  "spider": "https://gitee.com/rrzt188/home/raw/master/spider2207.jar",
-//	"spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/2915.jar",
   "spider":"https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/jar/1025.jar",
-  //"spider":"https://raw-gh.gcdn.mirr.one/liu673cn/box/main/jar/spider2207.jar;md5;727C472F6F06E2958FF50FBD0C2AAE21",
      "lives": [{"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=https://raw.iqiq.io/rrzt/home-gitea-fuli18/main/zhibo/TV18.TXT"]}]}],
 
 "rules":[{"host":"*","rule":["iesdouyin.com/aweme","video_id="]},
@@ -20,7 +8,7 @@
 {"host":"*","rule":["http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"]},
 {"host":"*","rule":["http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"]}],       
   "sites": [ 
-"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"AV","server":"https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"}]}},
+//"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"AV","server":"https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"}]}},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
 {"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1},
 {"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1},
